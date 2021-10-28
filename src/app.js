@@ -25,7 +25,7 @@ qfil.getJsonDataFromFile('siteData.json', (siteData) => {
         res.render('index',
             {
                 ...siteData,
-                message: 'Welcome to the home page TEST.',
+                message: 'Welcome to the home page.',
             });
     });
  
